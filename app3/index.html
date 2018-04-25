@@ -1,0 +1,324 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dia Mundial de la Bicicleta</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app2_.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--<script src="js/acciones.js"></script>-->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/archivos/renovacion.png')">
+<body onLoad="MM_preloadImages('imagenes/archivos/medio de transporte.jpg')">
+ <body onLoad="MM_preloadImages('imagenes/archivos/antigua.png')">
+
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Dia Mundial de la Bicicleta</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Banner conmemorativo</h1>
+    <div>
+    <p>Día de la bicicleta:</p>
+    <br>
+   </div>
+   <div>
+      <img src="imagenes/Baner.jpg" width="50%" height="50%">
+   </div>
+  </div>
+ </div>
+ <div>
+ <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Historia De la Bicicleta</h2>
+  <p></p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Utilizacion como medio de transporte</h2>
+   <p></p>
+   </a>
+  </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Tipos de Bicicletas</h2>
+   <p></p>
+   </a>
+  </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>5 Marcas importantes de Bicicletas </h2>
+   <p></p>
+   </a>
+  </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Por que se celebra el dia Mundia de la Bicicleta </h2>
+   <p></p>
+   </a>
+  </li>
+  </ul>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="imagenes/persona_azul.png" width="120" height="120">
+   </div>
+   <div>
+   <h4>Aplicacion Tres</h4>
+   <h4>Peregrina Garcia Christian Ariel</h4>
+   </div>
+   </div>
+   </div>
+   <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Historia de la Bicicleta</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+     <H2>LA BICICLETA ES UN INVENTO SIMPLE QUE NO NECESITA MOTOR
+     , ELECTRÓNICA O COMBUSTIBLE. ES TAN SIMPLE QUE PODRÍA HABER 
+     SIDO INVENTADA HACE MIL AÑOS. SIN EMBARGO, SÓLO HA VISTO 
+     LA LUZ BASTANTE RECIENTEMENTE.
+     </H2>
+<h3>Alrededor de 1790, el francés Mede de Sivrac inventó algo llamado "celerifère".
+ Estaba hecho de madera y tenía dos ruedas, pero sin pedales ni dirección. 
+Pronto de puso de 
+moda tirarse por las laderas en uno.
+</h3>
+<img src="imagenes/celifere.jpg" width="400" height="300">
+<h3>El barón alemán Karl von Drais vio que el invento se podía mejorar. 
+En 1817 diseñó una versión del celifère, 
+pero con una rueda delantera que podía girarse usando unas barras. 
+Montarse en una bicicleta "draisienne" se convirtió en un deporte popular en muchas partes de Europa.
+</h3>
+<img src="imagenes/draisienne.jpg" width="400" height="300">
+<h3>
+Como estas bicis no tenían pedales, tenías que empujarlas con los pies. 
+Pero en 1839 el herrero escocés Kirkpatrick Macmillan construyó un nuevo modelo de metal, 
+con palancas de pie que hacían girar la rueda trasera. 
+Los lugareños que le veían dando vueltas a toda velocidad en su máquina se reían de él, especialmente cuando se chocó con una niña y encima le multaron por ello. 
+Pero el invento de Macmillan fue la primera bicicleta de verdad impulsada por pedales.
+</h3>
+<img src="imagenes/macmillan.jpg" width="400" height="300">
+<h3>
+Macmillan nunca patentó ni fabricó para vender su diseño. En vez de eso, otra gente lo copió y salieron con sus propias variaciones.
+Los fabricantes de carruajes de París Ernest y Pierre Michaux lanzaron su versión en los 1850s. Tenía pedales sujetos a una gran rueda delantera, y fue llamado el "velocípedo". 
+Los velocípedos tenían los neumáticos hechos de rueda sólida y eran muy incómodos. 
+Tanto es así, que en Inglaterra los llamaban los "sacude-huesos".
+</h3> 
+<img src="imagenes/velocipede.jpg" width="400" height="300">
+<h3>Cuanto más grande fuera la rueda delantera, más rápido podía ir el velocípedo. 
+En 1871, el inventor inglés James Starley diseñó un velocípedo con una rueda delantera enorme. 
+Lo llamó el "ordinario", aunque hoy en día sería de todo menos ordinario por lo extraño que nos parecería. 
+Es cierto que iba rápido, pero se tambaleaba mucho y causó muchos accidentes.
+</h3>
+<img src="imagenes/ordinary.jpg" width="400" height="300">
+<h3>
+El sobrino de James Starley, John Starley, resolvió el problema en 1885. 
+Unió los pedales a una cadena que giraba la rueda de atrás, como en la bici de Macmillan. 
+Ambas ruedas tenían el mismo tamaño, y la bici era tan segura que fue llamada la "bicicleta segura". 
+Las bicis de hoy en día aún funcionan del mismo modo
+<center><img src="imagenes/archivos/actualBici.jpg" width="400" height="300"></center>
+</h3></h2></h2>
+     </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="120" height="120">
+    </div>
+    <h4>Aplicacion Tres, CAPG</4>
+    </div>
+    </div>
+    
+    
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Utilizacion como medio de transporte</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+     <h2>
+     <br>
+         <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/archivos/transformacion2.png',1)"><img src="imagenes/archivos/medio de transporte.jpg" width="500" height="400" id="Image16"></a></center>
+
+     <br>
+     En el mundo se fabrican más de 100 millones de bicicletas anualmente, tres veces más que el número de automóviles, y únicamente en los países desarrollados como Canadá, Alemania, Holanda y China son tomadas en cuenta como medio de transporte, dándoles la misma prioridad que los colectivos y automóviles.En nuestro país, poco o nada se preocupan las autoridades para fomentar el uso de bicicletas, teniendo en cuenta el beneficio que reporta al medioambiente, la economía y salud.
+
+Más que un medio de transporte, la bicicleta ahora forma parte de un estilo de vida. Se fue incorporando a las actividades de paraguayos que apostaron principalmente a la salud y economía.
+
+Su uso como medio alternativo de transporte fue avanzando considerablemente en Asunción y las ciudades aledañas, en las que el tráfico de las principales arterias se ve rebasado por la cantidad de automóviles y motocicletas.
+
+Los ciclistas deben lidiar con el malhumor y la poca predisposición de los conductores de vehículos, con quienes luchan a diario por un espacio en el asfalto.
+
+El pésimo servicio del transporte público y la falta de lugar para estacionar son, tal vez, las principales razones por las cuales muchos ciudadanos decidieron cambiar su medio de transporte habitual por la bicicleta.
+
+Varias son las ventajas: las bicicletas no necesitan combustible, no pagan estacionamiento, no deben ir de tanto en tanto al mecánico; el ciclista no paga pasaje, no tiene que pagar impuestos; está comprobado que andar en bici mejora el humor y estado de ánimo, ayuda a reducir el colesterol, combatir los problemas cardíacos y quemar grasa.
+
+Además, evita la contaminación y el ciclista se ahorra tiempo en el tráfico. Sin embargo, muchas personas no se animan a usarla por temor a ser hostigadas y atropelladas por automovilistas y motociclistas.
+</h2></div>
+     
+     </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="120" height="120">
+    </div>
+    <h4>Aplicacion Tres, CAPG</4>
+    </div>
+    </div>
+    
+    
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Tipos de Bicicletas</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+     <h2><!-- Start WOWSlider.com BODY section --></h2>
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+    <li><img src="data3/images/bicicleta_de_montaa.jpg" alt="BICICLETA DE MONTANA" title="BICICLETA DE MONTANA" id="wows3_0"/></li>
+    <li><img src="data3/images/bicicleta_urbana.jpg" alt="BICICLETA URBANA" title="BICICLETA URBANA" id="wows3_1"/></li>
+    <li><img src="data3/images/bicicleta_contra_reloj.jpg" alt="BICICLETA CONTRA RELOJ" title="BICICLETA CONTRA RELOJ" id="wows3_2"/></li>
+    <li><img src="data3/images/bmx.jpg" alt="BMX" title="BMX" id="wows3_3"/></li>
+    <li><img src="data3/images/bicicleta_cruiser.jpg" alt="BICICLETA CRUISER" title="BICICLETA CRUISER" id="wows3_4"/></li>
+    <li><img src="data3/images/bicicleta_de_carretera.jpg" alt="BICICLETA DE CARRETERA" title="BICICLETA DE CARRETERA" id="wows3_5"/></li>
+    <li><a href="http://wowslider.com"><img src="data3/images/bicicleta_infantil.jpg" alt="wowslider" title="BICICLETA INFANTIL" id="wows3_6"/></a></li>
+    <li><img src="data3/images/bicicleta_reclinada.jpg" alt="BICICLETA RECLINADA" title="BICICLETA RECLINADA" id="wows3_7"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="BICICLETA DE MONTANA"><span><img src="data3/tooltips/bicicleta_de_montaa.jpg" alt="BICICLETA DE MONTAÑA"/>1</span></a>
+    <a href="#" title="BICICLETA URBANA"><span><img src="data3/tooltips/bicicleta_urbana.jpg" alt="BICICLETA URBANA"/>2</span></a>
+    <a href="#" title="BICICLETA CONTRA RELOJ"><span><img src="data3/tooltips/bicicleta_contra_reloj.jpg" alt="BICICLETA CONTRA RELOJ"/>3</span></a>
+    <a href="#" title="BMX"><span><img src="data3/tooltips/bmx.jpg" alt="BMX"/>4</span></a>
+    <a href="#" title="BICICLETA CRUISER"><span><img src="data3/tooltips/bicicleta_cruiser.jpg" alt="BICICLETA CRUISER"/>5</span></a>
+    <a href="#" title="BICICLETA DE CARRETERA"><span><img src="data3/tooltips/bicicleta_de_carretera.jpg" alt="BICICLETA DE CARRETERA"/>6</span></a>
+    <a href="#" title="BICICLETA INFANTIL"><span><img src="data3/tooltips/bicicleta_infantil.jpg" alt="BICICLETA INFANTIL"/>7</span></a>
+    <a href="#" title="BICICLETA RECLINADA"><span><img src="data3/tooltips/bicicleta_reclinada.jpg" alt="BICICLETA RECLINADA"/>8</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div> 
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<BR>
+<BR>
+SI GUSTAS SABER LA DESCRIPCION DE ESTAS BICICLETAS DA CLIC EN EL LINK:
+<A HREF="https://www.aboutespanol.com/principales-tipos-de-bicicleta-363716" target="_self">https://www.aboutespanol.com/principales-tipos-de-bicicleta-363716</A>
+<BR>
+<BR></div>
+     </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="120" height="120">
+    </div>
+    <h4>Aplicacion Tres, CAPG</h4>
+    </div>
+    </div>
+    
+    
+     <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>5 Marcas importantes de Bicicletas </h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+     <h2><h2> 1-Specialized</h2><img src="imagenes/1Specialized.jpg" width="400" height="300">
+    <h3>
+      Cómo no podía ser de otra manera encabeza la lista la prestigiosa marca americana. La firma de la “s” es, indiscutiblemente, y por méritos propios, la mejor marca de bicicletas del mundo. A su favor juega la indudable calidad de todos sus productos y el enorme prestigio del que goza entre los usuarios del mundo ciclista. Los de Morgan Hill llevan años jugando en otra liga y son referentes en absolutamente todas las facetas de mercado. Cuadros de bicicleta, componentes, ropa y complementos. Su cuota de mercado, especialmente en bicicletas de gama media-alta es espectacular y sus ventas por todo el mundo lo atestiguan.
+      <h2> 2-Scott</h2>
+    <center><img src="imagenes/scott.jpg" width="400" height="300"></center>
+         La marca Suiza sigue creciendo y parece dispuesta a seguir el camino de Specialized ampliando su cartera de productos a prácticamente todo el sector ciclista. Scott ya fábrica a día de hoy, además de bicicletas, cascos, zapatillas, gafas y ropa entre otros complementos, consiguiendo así fidelizar gran parte de sus clientes.
+         La espectacularidad de sus diseños es otro punto fuerte de la marca, especialmente en carretera, donde los acabados de algunos modelos son realmente buenos y en los que se puede entrever un minucioso estudio aerodinámico. La geometría de gran parte de sus cuadros (por ejemplo la de la Scott Foil) es bastante más agresiva que la de otras marcas, dando un toque “racing” bastante valorado por parte de los usuarios.En ese mismo sentido destaca la renovación constante que tiene la marca, actualizando sus modelos cada año a las necesidades del consumidor, algo que le permite tener una excelente cuota de mercado especialmente en Europa. Scott es renovación, investigación y desarrollo, y buena muestra de ello son sus bicicletas de carretera con frenos de disco, que se encuentran por calidad-precio entre las mejores del mercado.
+         <h2> 3-Trek</h2>
+    <center><img src="imagenes/Trek.jpg" width="400" height="300"></center>
+         En tercera posición encontramos al gigante norteamericano Trek, todo un referente a nivel de ventas mundiales con muchos años a la estela de Specialized.Trek es una de las mejores marcas del mercado, y pese a su bajón mediático con la polémica de Lance Armstrong, siempre ha sido una de las más populares entre los aficionados al mundo del ciclismo. Esto le permite vender gran cantidad de bicicletas de todo a tipo y a todo el mundo gozando de una excelente presencia en el mercado americano. Precisamente con el fin de corregir esa mala imagen que les dejo Lance Armstrong, decidieron crear su propio equipo ciclista profesional (Trek Segafredo) y volver a cambiar, junto a la figura de Alberto Contador, su imagen de marca. Tras su retirada podria ser uno de sus embajadores de la marca a nivel mundial.
+             <h2> 4-Giant</h2>
+    <center><img src="imagenes/Giant.jpg" width="400" height="300"></center>
+            En cuarta posición tenemos al mayor fabricante de bicicletas del mundo (fabrica también para terceros). La empresa con sede en Taiwan es un referente en cuanto a comodidad. Sus bicicletas son tremendamente cómodas y pese a que sus diseños y geometrías no han sido, hasta el momento, demasiado agresivas, siguen gustando a un público más clásico. Giant ha sido pionero en el mundo ciclista, por ejemplo inventando la primera bicicleta de carretera con 
+            sloping bajo. La valoración de aquellos que han tenido una Giant generalmente es muy buena.
+             <h2> 5-Canyon</h2>
+    <center><img src="imagenes/canyon.jpg" width="400" height="300"></center>
+            La quinta posición está ocupada por un “rara avis” del sector. Canyon es la única marca de bicicletas que solo vende por internet y que no ofrece sus bicicletas en tienda física. Pese a contar, a priori, con este “hándicap” la marca es conocida por prácticamente todos los ciclistas de carretera y la enorme calidad de sus productos goza de una muy buena consideración entre los aficionados y profesionales del sector.Lo de Canyon en los últimos años tiene mucho mérito y ha hecho de sus bicicletas un referente del mercado, especialmente a nivel de calidad-precio.  La empresa alemana presenta seguramente los precios más competitivos del mercado, sin perder en ningún momento su buena fama. En los últimos tiempos además ha ampliado bastante su catálogo de productos y es también un referente en el mundo del triatlón de la mano de Jan Frodeno.</h2>
+     </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="120" height="120">
+    </div>
+    <h4>Aplicacion Tres, CAPG</4>
+    </div>
+    </div>
+    </div>
+    <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Por que se celebra el dia Mundia de la Bicicleta </h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    
+     <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/archivos/arumia.jpg',1)">
+<img src="imagenes/archivos/renovacion.png" width="400" height="400" id="Image14"></a>
+     <br>   
+      El 19 de abril está marcado en el calendario como el Día Mundial de la Bicicleta. El porqué de esta celebración tiene detrás una historia muy interesante que merece la pena recordar hoy.
+En 1943, el químico suizo Albert Hofmann realizó un experimento en el que él mismo se atrevió a probar la dietilamida de ácido lisérgico (LSD) -en pequeñas cantidades y de manera voluntaria- para determinar sus efectos en el cuerpo humano. Tras la prueba, Hofmann experimentó alteraciones de la percepción y tuvo que pedir a su ayudante que le acompañase a casa.
+En aquella época la Segunda Guerra Mundial aún no había finalizado y el desplazamiento en vehículos motorizados estaba prohibido, así que ambos tuvieron que hacer el camino de vuelta en bicicleta.
+
+“Fantásticas imágenes caleidoscópicas surgían en mí, alternantes, variadas, se abrían y cerraban en círculos y espirales, y explotaban como fuentes de color, se reordenaban y mezclaban en un flujo constante”. Esto escribió Hofmann, que en ningún momento intuyó el uso recreacional del LSD, ni que su vuelta a casa sobre dos ruedas supondría el comienzo de la celebración del Día Mundial de la Bicicleta.
+El experimento del químico sirvió para descubrir una sustancia psicoactiva capaz de provocar alteraciones de la conciencia, una potente herramienta psiquiátrica.
+La bicicleta es uno de los medios de transporte más divertidos para hacer una ruta por la ciudad. Si estás en Madrid, las dos ruedas son perfectas para hacer una ruta por los mercados Gourmet que han aflorado en la capital. En los últimos meses muchos de los mercados de barrio antiguo han visto como -tras una reforma- sus calles vuelven a llenarse de gente. La ruta en bicicleta que te proponemos desde Cambio16 está pensada para descubrirlos uno a uno.
+
+<center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/archivos/transformacion.png',1)"><img src="imagenes/archivos/antigua.png" width="500" height="400" id="Image15"></a></center>
+ </h2>
+ 
+     
+    
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="120" height="120">
+    </div>
+    <h4>Aplicacion Tres, CAPG</4>
+    </div>
+     </div>
+      
+  </body>
+  </html>
+  
+ 
