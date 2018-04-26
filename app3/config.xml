@@ -24,12 +24,17 @@
  <preference name="android-installLocation"  value="auto"/>
  <preference name="permissions"  value="INTERNET"/>
 
- <!--Para accesar a paginas en internet-->
+<!--Para accesar a paginas de internet-->
  <allow-intent href="https://*/*"/>
- <acces origin="https://*/*"/>
+ <access origin="https://*/*"/>
  <allow-intent href="http://*/*"/>
- <acces origin="http://*/*"/>
+ <access origin="http://*/*"/>
  <plugin name="cordova-plugin-whitelist" source="npm"/>
+
+ 
+
+
+
 
  <!--Plugins-->
  <!--Core Plugins-->
