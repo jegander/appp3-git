@@ -26,16 +26,12 @@
 
 <!--Para accesar a paginas de internet-->
  <allow-intent href="https://*/*"/>
- <access origin="https://*/*"/>
+ <acces origin="https://*/*"/>
  <allow-intent href="http://*/*"/>
  <access origin="http://*/*"/>
  <plugin name="cordova-plugin-whitelist" source="npm"/>
 
  
-
-
-
-
  <!--Plugins-->
  <!--Core Plugins-->
  <plugin name="cordova-plugin-device" spec="~1.1.4"/>
